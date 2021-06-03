@@ -1,0 +1,10 @@
+.estrelas input[type=radio] {
+    display: none;
+  }
+  .estrelas label i.fas:before {
+    content:'\f005';
+    color: #FC0;
+  }
+  .estrelas input[type=radio]:checked ~ label i.fas:before {
+    color: #CCC;
+  }
