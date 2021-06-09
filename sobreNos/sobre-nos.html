@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">  
     <link rel="stylesheet" href="../css/style.css">
     <script src="../js/script.js"></script>
     <title>Sobre nós</title>
@@ -10,11 +11,14 @@
 <body>
     <header>
         <nav class="nav">
-            <div><a href="../index.html">Logo</a></div>
-            <ul class="ul">
-                <li onclick="pag('../saoPaulo/sao-paulo.html')">Dicas</li>
-                <li onclick="pag('../spEntretenimento/sp-entretenimento.html')" class="active">Entretenimento</li>
-            </ul>
+            <div class="menu">
+                <input type="checkbox" id="check1">
+                <label for="check1" class="check1"><i class="fas fa-bars"></i></label>
+                <div class="logo"><a href="../index.html">Logo</a></div>
+                <ul class="ul">
+                    <li class="active"><a href="sobre-nos.html">Sobre</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
     <section class="cont">

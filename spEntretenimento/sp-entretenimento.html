@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">  
     <link rel="stylesheet" href="../css/style.css">
     <script src="../js/script.js"></script>
     <title>SP Entretenimento</title>
@@ -10,11 +11,15 @@
 <body>
     <header>
         <nav class="nav">
-            <div><a href="../index.html">Logo</a></div>
-            <ul class="ul">
-                <li onclick="pag('../saoPaulo/sao-paulo.html')">Dicas</li>
-                <li onclick="pag('../spEntretenimento/sp-entretenimento.html')" class="active">Entretenimento</li>
-            </ul>
+            <div class="menu">
+                <input type="checkbox" id="check1">
+                <label for="check1" class="check1"><i class="fas fa-bars"></i></label>
+                <div class="logo"><a href="../index.html">Logo</a></div>
+                <ul class="ul">
+                    <li class="active"><a href="../saoPaulo/sao-paulo.html">Dicas</a></li>
+                    <li class="active"><a href="../spEntretenimento/sp-entretenimento.html">Entretenimento</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
@@ -23,13 +28,13 @@
 
         <div class="container-content bd-blue">
 
-            <div class="cont">
+            <div class="cont2">
                     <h2 class="mini-box">Conheça São Paulo</h2>
                 <div class="cont">
                     <h2 class="content-name">Teatro Municipal</h2>
                 </div>
 
-                <div class="content">
+                <div class="cont2">
                     <p>O Teatro Municipal de São Paulo é um dos mais importantes teatros do Brasil e um dos cartões postais da cidade de São Paulo. Localizado no centro da cidade, foi inaugurado em 1911 para atender ao desejo da elite paulista da época, que queria que a cidade estivesse à altura dos grandes centros culturais</p>
                     <figure>
                         <img src="../img/teatromunicipal.jpg" alt="Teatro Municipal de São Paulo">
@@ -42,7 +47,7 @@
                     <br>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14630.583629092183!2d-46.638615!3d-23.5452348!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x275b79f7efe44e1e!2sTheatro%20Municipal%20de%20S%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1623249801772!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
-                <div class="cont">
+                <div class="cont2">
                     <h2 class="content-name">Vila Madalena</h2>
                 </div>
                 <div class="content">
