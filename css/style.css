@@ -1,11 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
-a{
-    text-decoration: none;
-}
 .active{
     border-bottom: 3px solid #ff9800;
 }
@@ -14,7 +6,6 @@ a{
     color: white;
 
 }
-
 
 header{
     height: 275px;
@@ -27,7 +18,7 @@ header{
 }
 
 
-footer {
+/* footer {
     position: absolute;
     right: 0;
     bottom: 0;
@@ -37,29 +28,8 @@ footer {
     text-align: center;
     color: white;
     font-size: 10px;
-  }
-
-html {
-height: 100%;
-box-sizing: border-box;
 }
-
-*,
-*:before,
-*:after {
-box-sizing: inherit;
-}
-  
-body {
-position: relative;
-margin: 0;
-padding-bottom: 25px;
-min-height: 100%;
-font-family: "Helvetica Neue", Arial, sans-serif;
-}
-  
-
-
+   */
 .box{
     margin: 10px;
     max-width: 354px;
@@ -159,45 +129,83 @@ font-family: "Helvetica Neue", Arial, sans-serif;
 
 /**Teste**/
 
-.pae{
-    background-color: #f6f6f6;
+.content-name{
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 25px;
+    margin: 20px auto 0px;
+}
+
+.content-name.-sub{
+    font-size: 24px;
+}
+
+/* .theatro-content{
+    padding: 20px 0;
+    border-bottom: 2px solid #122ab2;
+}
+
+.vila-madalena{
+    padding: 20px 0;
+    border-bottom: 2px solid #122ab2;
+} */
+
+.content-text{ /**VERIFICAR MAX-WIDTH**/
+    margin: -10px auto 15px;
+    max-width: 85%;
+}
+
+.space-text{
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
 .main-hold{
     padding-bottom: 20px;
     padding-top: 10px;
+    background-color: #f6f6f6;
 }
 
 .bd-blue{
     border-top: 2px solid #6651b0;
 }
 
-/* .container-content{
+.footer{
     display: flex;
-    justify-content: center;
-    align-content: center;
+    height: 70px;
+    background: #0e3940;
     align-items: center;
-    max-width: 960px;
-    padding: 10px 15px 20px 15px;
-    background-color: #fff;
-    margin-right: auto;
-    margin-left: auto;
-} */
+}
+
+.footer p{
+        flex: 1;
+        text-align: center;
+        color: #fff;
+        font-size: 14px;
+}
 
 .container-content{
-    max-width: 1131px;
+    max-width: 960px;
     padding: 30px 138px;
     background-color: #fff;
     margin: auto;
 }
 
-.cont2{
-    margin: 50px auto;
+.cont2{ /*CHECAR - THEATRO*/
+    margin: 0px auto;
+}
+
+.cont2 figure figcaption{ /*CHECAR*/
+    font-size: 13px;
+    font-style: italic;
+    text-align: center;
+    line-height: 1.8;
 }
 
 
 .mini-box{
     text-transform: uppercase;
+    font-weight: bold;
     font-size: 13px;
     text-align: center;
     line-height: 1.3;
@@ -209,33 +217,26 @@ font-family: "Helvetica Neue", Arial, sans-serif;
     width: 180px;
 }
 
-.content-name{
-    font-size: 36px;
-    text-align: center;
-    padding-bottom: 25px;
-}
 
-.content{
+
+/* .content{
     text-align: justify;
 }
 
 .content p{
     margin-top: 15px;
+} */
+
+figure img{ /**MUDEI - VERIFICAR**/
+    width: 85%;
+    margin: 0 auto;
 }
 
-figure img{
-    width: 100%;
-}
-
-.cont2 figure figcaption{
-    font-size: 13px;
-    font-style: italic;
-    text-align: center;
-    line-height: 1.8;
-}
 
 iframe{
-    width: 100%;
+    display: block;
+    width: 85%;
+    margin: 0 auto 15px;
 }
 
 /* -----menu-------- */
