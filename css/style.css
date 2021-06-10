@@ -395,3 +395,27 @@ iframe{
 .btn:hover{
     background-color: #f59f1e;
 }
+
+
+.img-sobre{
+    width: 225px;
+    height: 225px;
+    box-shadow: -13px 13px 0px #59d65e;
+}
+.box-sobre{
+    margin: 10px 45px;
+    max-width: 225px;
+    border-radius: 5px;
+}
+
+.sobre-txt{
+    margin-top: 30px;
+}
+
+.sobre-txt p{
+    margin-top: 10px;
+}
+
+.sobre-txt h2{
+    margin-top: 10px;
+}
