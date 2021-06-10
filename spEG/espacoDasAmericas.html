@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">  
+    <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
     <script src="../js/script.js"></script>
     <title>Espaço das Américas</title>
@@ -16,22 +17,21 @@
                 <label for="check1" class="check1"><i class="fas fa-bars"></i></label>
                 <div class="logo"><a href="../index.html">Logo</a></div>
                 <ul class="ul">
-                    <li class="active"><a href="../saoPaulo/sao-paulo.html">Dicas</a></li>
+                    <li><a href="../saoPaulo/sao-paulo.html">Dicas</a></li>
                     <li class="active"><a href="../spEntretenimento/sp-entretenimento.html">Entretenimento</a></li>
                 </ul>
             </div>
         </nav>
     </header>
-    <div class="pae">
-        <section class="main-hold">
-            <div class="container-content bd-blue">    
-                <div class="cont2">
-                        <h2 class="mini-box">Entretenimento</h2>
-                    <div class="cont">
-                        <h2 class="content-name">Espaço das Américas</h2>
-                    </div>
+    <section class="main-hold">
+        <div class="container-content bd-blue">
+            <div class="mini-box">
+                <p>Entretenimento</p>
+            </div>
+                <section class="americas-main">
+                    <h2 class="content-name">Espaço das Américas</h2>
                     <div class="cont2">
-                        <p>
+                        <p class="content-text">
                             O Espaço das Américas é hoje o mais novo empreendimento para shows e eventos da cidade, 
                             e com orgulho abre suas portas para apresentar ao público a nova realidade que chegou para revolucionar o 
                             universo do entretenimento não só de São Paulo, mas em todo o país Seu espaço multifuncional com infraestrutura 
@@ -42,44 +42,45 @@
                             <img src="../img/espaço-a.jpg" alt="Espaço das Americas">
                             <figcaption>Vista do espaço das Américas antes de um show</figcaption>
                         </figure>
-                        <p>
+                        <p class="content-text space-text">
                             Seu horário de funcionamento é de segunda à sábado, das 10h00 às 19h00. Preços: R$100,00. R$380,00 eventos e 
-                            shows consultar a programaçao
+                            shows consultar a programação.
                         </p>
-                        <p>Para mais informações <a class="link-oficial" target=”_blank” href="http://www.espacodasamericas.com.br/">clique aqui</a></p>
-                        <br>
-                        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.13257417455!2d-46.670018985543926!3d-23.5277336662353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5803b6a863d5%3A0x55b43bfc3a4cde14!2zRXNwYcOnbyBkYXMgQW3DqXJpY2Fz!5e0!3m2!1spt-BR!2sbr!4v1623085859869!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    </div>
-                </div>
-                <div class="estrelas">
-                    <form action="" id="loja" onsubmit="alteraNota('lj', 2)">
-                        <legend>Avaliação</legend>
-                          <div id ="ava">
-                
-                            <input type="radio" id="cm_star-empty" name="lj" value="0" checked/>
-                
-                            <label for="cm_star-1"><i class="fas fa-star"></i></label>
-                            <input type="radio" id="cm_star-1" name="lj" value="1"/>
-                
-                            <label for="cm_star-2"><i class="fas fa-star"></i></label>
-                            <input type="radio" id="cm_star-2" name="lj" value="2"/>
-                
-                            <label for="cm_star-3"><i class="fas fa-star"></i></label>
-                            <input type="radio" id="cm_star-3" name="lj" value="3"/>
-                
-                            <label for="cm_star-4"><i class="fas fa-star"></i></label>
-                            <input type="radio" id="cm_star-4" name="lj" value="4"/>
-                
-                            <label for="cm_star-5"><i class="fas fa-star"></i></label>
-                            <input type="radio" id="cm_star-5" name="lj" value="5">
-                
-                            <input class="btn b-o ml-5" type="submit">
-                            <input class="btn b-o" type="reset">
+                        <p class="content-text space-text">Para mais informações <a class="link-oficial" target=”_blank” href="http://www.espacodasamericas.com.br/">clique aqui</a></p>
+                        <div class="mapa-content">
+                            <h3 class="content-name -sub">Como Chegar</h3>
+                            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.13257417455!2d-46.670018985543926!3d-23.5277336662353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5803b6a863d5%3A0x55b43bfc3a4cde14!2zRXNwYcOnbyBkYXMgQW3DqXJpY2Fz!5e0!3m2!1spt-BR!2sbr!4v1623085859869!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                         </div>
-                    </form>
-                </div>
+                    </div>
+                </section>
+            <div class="estrelas">
+                <form action="" id="loja" onsubmit="alteraNota('lj', 2)">
+                    <legend>Avaliação</legend>
+                      <div id ="ava">
+            
+                        <input type="radio" id="cm_star-empty" name="lj" value="0" checked/>
+            
+                        <label for="cm_star-1"><i class="fas fa-star"></i></label>
+                        <input type="radio" id="cm_star-1" name="lj" value="1"/>
+            
+                        <label for="cm_star-2"><i class="fas fa-star"></i></label>
+                        <input type="radio" id="cm_star-2" name="lj" value="2"/>
+            
+                        <label for="cm_star-3"><i class="fas fa-star"></i></label>
+                        <input type="radio" id="cm_star-3" name="lj" value="3"/>
+            
+                        <label for="cm_star-4"><i class="fas fa-star"></i></label>
+                        <input type="radio" id="cm_star-4" name="lj" value="4"/>
+            
+                        <label for="cm_star-5"><i class="fas fa-star"></i></label>
+                        <input type="radio" id="cm_star-5" name="lj" value="5">
+            
+                        <input class="btn b-o ml-5" type="submit">
+                        <input class="btn b-o" type="reset">
+                    </div>
+                </form>
             </div>
-        </section>
-    </div>
+        </div>
+    </section>
 </body>
 </html>

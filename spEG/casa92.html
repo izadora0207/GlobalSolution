@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">  
+    <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
     <script src="../js/script.js"></script>
     <title>Casa 92</title>
@@ -16,67 +17,70 @@
                 <label for="check1" class="check1"><i class="fas fa-bars"></i></label>
                 <div class="logo"><a href="../index.html">Logo</a></div>
                 <ul class="ul">
-                    <li class="active"><a href="../saoPaulo/sao-paulo.html">Dicas</a></li>
+                    <li><a href="../saoPaulo/sao-paulo.html">Dicas</a></li>
                     <li class="active"><a href="../spEntretenimento/sp-entretenimento.html">Entretenimento</a></li>
                 </ul>
             </div>
         </nav>
     </header>
-    <div class="pae">
-        <section class="main-hold">
-            <div class="container-content bd-blue">    
-                <div class="cont2">
-                        <h2 class="mini-box">Entretenimento</h2>
-                    <div class="cont">
-                        <h2 class="content-name">Casa 92</h2>
-                    </div>
+
+    <section class="main-hold">
+        <div class="container-content bd-blue">
+            <div class="mini-box">
+                <p>Entretenimento</p>
+            </div>
+                <section class="casa92-main">
+                    <h2 class="content-name">Casa 92</h2>
                     <div class="cont2">
-                        <p>
+                        <p class="content-text">
                             Local simples e exótico com decoração retrô singular onde os DJs animam a todos na pista de dança.
                         </p>
                         <figure>
                             <img src="../img/casa92.jpg" alt="Casa 92">
                             <figcaption>Comodo da casa 92</figcaption>
                         </figure>
-                        <p>Seu horário de funcionamento é das 22h30 às 05h00 de quinta-feira aos sábados.
+                        <p class="content-text space-text">
+                            Seu horário de funcionamento é das 22h30 às 05h00 de quinta-feira aos sábados.
                             Entrada (R$ 180.00), comanda individual, Estacionamento/Valet (R$ 25.00), Acesso para deficientes, 
                             Lugares/Capacidade total (380) R$ 90,00 (entrada); R$ 180,00 (consumação), com nome na lista: R$ 60,00 (entrada); 
                             R$ 120,00 (consumação).
                         </p>
-                        <p>Para mais informações <a class="link-oficial" target=”_blank” href="http://92casa.com.br/">clique aqui</a></p>
-                        <br>
-                        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14628.476279007402!2d-46.6941667!3d-23.5641667!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x49c4e6189bf7c1e7!2sCasa%2092!5e0!3m2!1spt-BR!2sbr!4v1623267916817!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    </div>
-                </div>
-                <div class="estrelas">
-                    <form action="" id="loja" onsubmit="alteraNota('lj', 6)">
-                        <legend>Avaliação</legend>
-                          <div id ="ava">
-                
-                            <input type="radio" id="cm_star-empty" name="lj" value="0" checked/>
-                
-                            <label for="cm_star-1"><i class="fas fa-star"></i></label>
-                            <input type="radio" id="cm_star-1" name="lj" value="1"/>
-                
-                            <label for="cm_star-2"><i class="fas fa-star"></i></label>
-                            <input type="radio" id="cm_star-2" name="lj" value="2"/>
-                
-                            <label for="cm_star-3"><i class="fas fa-star"></i></label>
-                            <input type="radio" id="cm_star-3" name="lj" value="3"/>
-                
-                            <label for="cm_star-4"><i class="fas fa-star"></i></label>
-                            <input type="radio" id="cm_star-4" name="lj" value="4"/>
-                
-                            <label for="cm_star-5"><i class="fas fa-star"></i></label>
-                            <input type="radio" id="cm_star-5" name="lj" value="5">
-                
-                            <input class="btn b-o ml-5" type="submit">
-                            <input class="btn b-o" type="reset">
+                        <p class="content-text space-text">Para mais informações <a class="link-oficial" target=”_blank” href="http://92casa.com.br/">clique aqui</a></p>
+                        <div class="mapa-content">
+                            <h3 class="content-name -sub">Como Chegar</h3>
+                            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14628.476279007402!2d-46.6941667!3d-23.5641667!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x49c4e6189bf7c1e7!2sCasa%2092!5e0!3m2!1spt-BR!2sbr!4v1623267916817!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                         </div>
-                    </form>
-                </div>
+                    </div>
+                </section>
+            <div class="estrelas">
+                <form action="" id="loja" onsubmit="alteraNota('lj', 6)">
+                    <legend>Avaliação</legend>
+                      <div id ="ava">
+            
+                        <input type="radio" id="cm_star-empty" name="lj" value="0" checked/>
+            
+                        <label for="cm_star-1"><i class="fas fa-star"></i></label>
+                        <input type="radio" id="cm_star-1" name="lj" value="1"/>
+            
+                        <label for="cm_star-2"><i class="fas fa-star"></i></label>
+                        <input type="radio" id="cm_star-2" name="lj" value="2"/>
+            
+                        <label for="cm_star-3"><i class="fas fa-star"></i></label>
+                        <input type="radio" id="cm_star-3" name="lj" value="3"/>
+            
+                        <label for="cm_star-4"><i class="fas fa-star"></i></label>
+                        <input type="radio" id="cm_star-4" name="lj" value="4"/>
+            
+                        <label for="cm_star-5"><i class="fas fa-star"></i></label>
+                        <input type="radio" id="cm_star-5" name="lj" value="5">
+            
+                        <input class="btn b-o ml-5" type="submit">
+                        <input class="btn b-o" type="reset">
+                    </div>
+                </form>
             </div>
-        </section>
-    </div>
+        </div>
+    </section>
+
 </body>
 </html>

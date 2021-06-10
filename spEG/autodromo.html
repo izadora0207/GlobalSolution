@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">  
+    <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
     <script src="../js/script.js"></script>
     <title>Autódromo</title>
@@ -16,32 +17,32 @@
                 <label for="check1" class="check1"><i class="fas fa-bars"></i></label>
                 <div class="logo"><a href="../index.html">Logo</a></div>
                 <ul class="ul">
-                    <li class="active"><a href="../saoPaulo/sao-paulo.html">Dicas</a></li>
+                    <li><a href="../saoPaulo/sao-paulo.html">Dicas</a></li>
                     <li class="active"><a href="../spEntretenimento/sp-entretenimento.html">Entretenimento</a></li>
                 </ul>
             </div>
         </nav>
     </header>
-    <div class="pae">
         <section class="main-hold">
-            <div class="container-content bd-blue">    
+             <div class="container-content bd-blue">
+                <div class="mini-box">
+                    <p>Entretenimento</p>
+                </div>
+            <section class="autodromo-main">
+                <h2 class="content-name">Autódromo</h2>
                 <div class="cont2">
-                        <h2 class="mini-box">Entretenimento</h2>
-                    <div class="cont">
-                        <h2 class="content-name">Autódromo</h2>
-                    </div>
-                    <div class="cont2">
-                        <p>
-                            Autódromo José Carlos Pace é um autódromo municipal localizado no distrito de Cidade Dutra, na cidade de São Paulo, 
-                            Brasil. Pela proximidade com o bairro de Interlagos é popularmente chamado de Autódromo de Interlagos, 
-                            é um dos maiores espaços públicos da cidade, com mais de um milhão de metros quadrados. O local recebe diversas provas 
-                            de automobilismo durante o ano todo, como a Fórmula 1 e o Mundial de Endurance (FIA-WEC).
-                        </p>
-                        <figure>
-                            <img src="../img/autodromo.jpg" alt="Autódromo">
-                            <figcaption>Visão aérea do Autódromo de interlagos</figcaption>
-                        </figure>
-                        <p>
+                    <p class="content-text">
+                        Autódromo José Carlos Pace é um autódromo municipal localizado no distrito de Cidade Dutra, na cidade de São Paulo, 
+                        Brasil. Pela proximidade com o bairro de Interlagos é popularmente chamado de Autódromo de Interlagos, 
+                        é um dos maiores espaços públicos da cidade, com mais de um milhão de metros quadrados. O local recebe diversas provas 
+                        de automobilismo durante o ano todo, como a Fórmula 1 e o Mundial de Endurance (FIA-WEC).
+                    </p>
+                                    
+                    <figure>
+                        <img src="../img/autodromo.jpg" alt="Autódromo">
+                        <figcaption>Visão aérea do Autódromo de interlagos</figcaption>
+                    </figure>
+                        <p class="content-text space-text">
                             Horário de funcionamento do Autódromo Administração - Diariamente, 7h às 19h. Pista para treino de ciclistas - 
                             Segunda a quarta, 4h às 7h30. Eventos e cursos - Conforme programação. Seus preços são: Piloto por um dia
                             Preço(s) R$ 110 (para participar da competição); R$ 10 + 1 kg de alimento não-perecível 
@@ -49,11 +50,13 @@
                             para mais informacoes acessar a 
                             <a href="http://www.autodromodeinterlagos.com.br/wp1/wp-content/uploads/2013/04/ANEXO-I-TABELA-DE-PRE%C3%87OS-AUT%C3%93DROMO-2018_v4.pdf">Tabela de preços do Autódromo</a>
                         </p>
-                        <p>Para mais informações <a class="link-oficial" target=”_blank” href="http://www.autodromodeinterlagos.com.br/">clique aqui</a></p>
-                        <br>
+                        <p class="content-text space-text">Para mais informações <a class="link-oficial" target=”_blank” href="http://www.autodromodeinterlagos.com.br/">clique aqui</a></p>
+                    <div class="mapa-content">
+                        <h3 class="content-name -sub">Como Chegar</h3>
                         <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29228.256272775747!2d-46.714899101513616!3d-23.692687566916753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4fc83e9584af%3A0x2ffcdc07da2ca5c0!2sAut%C3%B3dromo%20Jos%C3%A9%20Carlos%20Pace!5e0!3m2!1spt-BR!2sbr!4v1623076051040!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
                 </div>
+            </section>
                 <div class="estrelas">
                     <form action="" id="loja" onsubmit="alteraNota('lj', 9)">
                         <legend>Avaliação</legend>
@@ -83,6 +86,5 @@
                 </div>
             </div>
         </section>
-    </div>
 </body>
 </html>

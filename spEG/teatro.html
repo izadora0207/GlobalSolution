@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">  
+    <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
     <script src="../js/script.js"></script>
     <title>Theatro Municipal</title>
@@ -16,40 +17,42 @@
                 <label for="check1" class="check1"><i class="fas fa-bars"></i></label>
                 <div class="logo"><a href="../index.html">Logo</a></div>
                 <ul class="ul">
-                    <li class="active"><a href="../saoPaulo/sao-paulo.html">Dicas</a></li>
+                    <li><a href="../saoPaulo/sao-paulo.html">Dicas</a></li>
                     <li class="active"><a href="../spEntretenimento/sp-entretenimento.html">Entretenimento</a></li>
                 </ul>
             </div>
         </nav>
     </header>
-    <div class="pae">
+
         <section class="main-hold">
-            <div class="container-content bd-blue">    
-                <div class="cont2">
-                        <h2 class="mini-box">Entretenimento</h2>
-                    <div class="cont">
-                        <h2 class="content-name">Theatro Municipal</h2>
-                    </div>
-                    <div class="cont2">
-                        <p>
-                            O Theatro Municipal de São Paulo é um dos mais importantes teatros do Brasil e um dos cartões postais da cidade 
-                            de São Paulo. Localizado no centro da cidade, foi inaugurado em 1911 para atender ao desejo da elite paulista 
-                            da época, que queria que a cidade estivesse à altura dos grandes centros culturais
-                        </p>
-                        <figure>
-                            <img src="../img/teatromunicipal.jpg" alt="Teatro Municipal de São Paulo">
-                            <figcaption>Teatro Municipal de noite.</figcaption>
-                        </figure>
-                        <p>
-                            Seu horário de funcionamento é das 10h00 às 16h00 de segunda-feira aos domingos.
-                            Os valores da entrada variam de R$ 30,60 (Setor 3 – lugares no 3°, 4° e 5° andar) a R$ R$ 652,80 (camarote). 
-                            Lugares na plateia custam R$ 102 ou R$ 136, a depender da série.
-                        </p>
-                        <p>Para mais informações <a class="link-oficial" target=”_blank” href="https://theatromunicipal.org.br/pt-br/">clique aqui</a></p>
-                        <br>
-                        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14630.583629092183!2d-46.638615!3d-23.5452348!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x275b79f7efe44e1e!2sTheatro%20Municipal%20de%20S%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1623249801772!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    </div>
+            <div class="container-content bd-blue">
+                <div class="mini-box">
+                    <p>Entretenimento</p>
                 </div>
+                    <section class="theatro-main">
+                        <h2 class="content-name">Theatro Municipal</h2>
+                        <div class="cont2">
+                            <p class="content-text">
+                                O Theatro Municipal de São Paulo é um dos mais importantes teatros do Brasil e um dos cartões postais da cidade 
+                                de São Paulo. Localizado no centro da cidade, foi inaugurado em 1911 para atender ao desejo da elite paulista 
+                                da época, que queria que a cidade estivesse à altura dos grandes centros culturais
+                            </p>
+                            <figure>
+                                <img src="../img/teatromunicipal.jpg" alt="Theatro Municipal de São Paulo">
+                                <figcaption>Teatro Municipal de noite.</figcaption>
+                            </figure>
+                            <p class="content-text space-text">
+                                Seu horário de funcionamento é das 10h00 às 16h00 de segunda-feira aos domingos.
+                                Os valores da entrada variam de R$ 30,60 (Setor 3 – lugares no 3°, 4° e 5° andar) a R$ R$ 652,80 (camarote). 
+                                Lugares na plateia custam R$ 102 ou R$ 136, a depender da série.
+                            </p>
+                            <p class="content-text space-text">Para mais informações <a class="link-oficial" target=”_blank” href="https://theatromunicipal.org.br/pt-br/">clique aqui</a></p>
+                            <div class="mapa-content">
+                                <h3 class="content-name -sub">Como Chegar</h3>
+                                <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14630.583629092183!2d-46.638615!3d-23.5452348!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x275b79f7efe44e1e!2sTheatro%20Municipal%20de%20S%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1623249801772!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                        </div>
+                    </section>
                 <div class="estrelas">
                     <form action="" id="loja" onsubmit="alteraNota('lj', 0)">
                         <legend>Avaliação</legend>
@@ -79,6 +82,5 @@
                 </div>
             </div>
         </section>
-    </div>
 </body>
 </html>
