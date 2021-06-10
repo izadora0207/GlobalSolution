@@ -353,3 +353,45 @@ iframe{
     font-size: 14px;
     margin-bottom: 40px;
 }
+
+.estrelas input[type=radio] {
+    display: none;
+}
+.estrelas label i.fas:before {
+    content:'\f005';color: #FC0;
+}
+.estrelas input[type=radio]:checked~ label i.fas:before {
+    color: #CCC;
+}
+
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .205rem .55rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.ml-5{
+    margin-left: 50px;
+}
+
+.b-o{
+    background: #ff9800;
+    color: white;
+}
+
+.btn:hover{
+    background-color: #f59f1e;
+}
