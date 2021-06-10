@@ -3,6 +3,23 @@ var artigos = ["Teatro", "JockeyClub", "Espaço das americas", "Escape", "Cinepo
 var Nota = [];
 var atualizaNota;
 
+function dica(nome){
+
+    let radios = document.getElementsByName(nome);
+
+    for (let i = 0; i < radios.length; i++) {
+        if (radios[i].checked) {
+            //alert("Escolheu: " + radios[i].value);
+            r = parseInt(radios[i].value);
+        }
+    }
+
+    let a;
+    a = Math.floor(Math.random() * 6);
+    atualizaNota = (a+r)/2;
+    alert("A media das notas das dicas é: "+atualizaNota);
+}
+
 notaRamdon();
 function notaRamdon() {
     let b = 0;
@@ -34,6 +51,7 @@ function alteraNota(nome, posicao) {
 }
 
 function atualizarNota(posicao, rr) {
+    //lembrar: sem divisao porque nao há como salvar quantas pessoas visualizaram sem o auxilio de um banco
     p = posicao;
     r = rr;
     atualizaNota = Nota[p] + r;
