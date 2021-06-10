@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">  
+    <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
     <script src="../js/script.js"></script>
     <title>Al Janiah</title>
@@ -16,67 +17,68 @@
                 <label for="check1" class="check1"><i class="fas fa-bars"></i></label>
                 <div class="logo"><a href="../index.html">Logo</a></div>
                 <ul class="ul">
-                    <li class="active"><a href="../saoPaulo/sao-paulo.html">Dicas</a></li>
+                    <li><a href="../saoPaulo/sao-paulo.html">Dicas</a></li>
                     <li class="active"><a href="../spEntretenimento/sp-entretenimento.html">Entretenimento</a></li>
                 </ul>
             </div>
         </nav>
     </header>
-    <div class="pae">
-        <section class="main-hold">
-            <div class="container-content bd-blue">    
-                <div class="cont2">
-                        <h2 class="mini-box">Entretenimento</h2>
-                    <div class="cont">
-                        <h2 class="content-name">Al Janiah</h2>
-                    </div>
+    
+    <section class="main-hold">
+        <div class="container-content bd-blue">
+            <div class="mini-box">
+                <p>Entretenimento</p>
+            </div>
+                <section class="al-janiah">
+                    <h2 class="content-name">Al Janiah</h2>
                     <div class="cont2">
-                        <p>
+                        <p class="content-text">
                             Gastrobar acolhedor de menu mediterrâneo-libanês promove apresentações de música étnica e danças palestinas.
                         </p>
                         <figure>
                             <img src="../img/alJaniah.jpg" alt="Al Janiah">
                             <figcaption>Entrada do Al Janiah</figcaption>
                         </figure>
-                        <p>
+                        <p class="content-text space-text">
                             Seu horário de funcionamento é das 18h00 às 00h30 de terça-feira as quinta-feira, 
                             das 18h00 às 02h00 de quinta-feira aos sábados e das 18h00 às 00h00 aos domingos
                             O preço de suas comidas e bebidas pode variar entre R$ 22,00 até R$ 43,45
                         </p>
-                        <p>Para mais informações <a class="link-oficial" target=”_blank” href="http://www.aljaniah.com.br/">clique aqui</a></p>
-                        <br>
-                        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14629.210764169009!2d-46.6452289!3d-23.5575699!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9bea53b2079e046c!2sRestaurante%20Al%20Janiah!5e0!3m2!1spt-BR!2sbr!4v1623269613787!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    </div>
-                </div>
-                <div class="estrelas">
-                    <form action="" id="loja" onsubmit="alteraNota('lj', 0)">
-                        <legend>Avaliação</legend>
-                          <div id ="ava">
-                
-                            <input type="radio" id="cm_star-empty" name="lj" value="" checked/>
-                
-                            <label for="cm_star-1"><i class="fas fa-star"></i></label>
-                            <input type="radio" id="cm_star-1" name="lj" value="1"/>
-                
-                            <label for="cm_star-2"><i class="fas fa-star"></i></label>
-                            <input type="radio" id="cm_star-2" name="lj" value="2"/>
-                
-                            <label for="cm_star-3"><i class="fas fa-star"></i></label>
-                            <input type="radio" id="cm_star-3" name="lj" value="3"/>
-                
-                            <label for="cm_star-4"><i class="fas fa-star"></i></label>
-                            <input type="radio" id="cm_star-4" name="lj" value="4"/>
-                
-                            <label for="cm_star-5"><i class="fas fa-star"></i></label>
-                            <input type="radio" id="cm_star-5" name="lj" value="5">
-                
-                            <input class="btn b-o ml-5" type="submit">
-                            <input class="btn b-o" type="reset">
+                        <p class="content-text space-text">Para mais informações <a class="link-oficial" target=”_blank” href="http://www.aljaniah.com.br/">clique aqui</a></p>
+                        <div class="mapa-content">
+                            <h3 class="content-name -sub">Como Chegar</h3>
+                            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14629.210764169009!2d-46.6452289!3d-23.5575699!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9bea53b2079e046c!2sRestaurante%20Al%20Janiah!5e0!3m2!1spt-BR!2sbr!4v1623269613787!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                         </div>
-                    </form>
-                </div>
+                    </div>
+                </section>
+            <div class="estrelas">
+                <form action="" id="loja" onsubmit="alteraNota('lj', 10)">
+                    <legend>Avaliação</legend>
+                      <div id ="ava">
+            
+                        <input type="radio" id="cm_star-empty" name="lj" value="0" checked/>
+            
+                        <label for="cm_star-1"><i class="fas fa-star"></i></label>
+                        <input type="radio" id="cm_star-1" name="lj" value="1"/>
+            
+                        <label for="cm_star-2"><i class="fas fa-star"></i></label>
+                        <input type="radio" id="cm_star-2" name="lj" value="2"/>
+            
+                        <label for="cm_star-3"><i class="fas fa-star"></i></label>
+                        <input type="radio" id="cm_star-3" name="lj" value="3"/>
+            
+                        <label for="cm_star-4"><i class="fas fa-star"></i></label>
+                        <input type="radio" id="cm_star-4" name="lj" value="4"/>
+            
+                        <label for="cm_star-5"><i class="fas fa-star"></i></label>
+                        <input type="radio" id="cm_star-5" name="lj" value="5">
+            
+                        <input class="btn b-o ml-5" type="submit">
+                        <input class="btn b-o" type="reset">
+                    </div>
+                </form>
             </div>
-        </section>
-    </div>
+        </div>
+    </section>
 </body>
 </html>

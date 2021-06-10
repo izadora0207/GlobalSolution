@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">  
+    <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
     <script src="../js/script.js"></script>
     <title>Casa de Pedra</title>
@@ -16,22 +17,22 @@
                 <label for="check1" class="check1"><i class="fas fa-bars"></i></label>
                 <div class="logo"><a href="../index.html">Logo</a></div>
                 <ul class="ul">
-                    <li class="active"><a href="../saoPaulo/sao-paulo.html">Dicas</a></li>
+                    <li><a href="../saoPaulo/sao-paulo.html">Dicas</a></li>
                     <li class="active"><a href="../spEntretenimento/sp-entretenimento.html">Entretenimento</a></li>
                 </ul>
             </div>
         </nav>
     </header>
-    <div class="pae">
-        <section class="main-hold">
-            <div class="container-content bd-blue">    
-                <div class="cont2">
-                        <h2 class="mini-box">Entretenimento</h2>
-                    <div class="cont">
-                        <h2 class="content-name">Casa de pedra</h2>
-                    </div>
+    
+    <section class="main-hold">
+        <div class="container-content bd-blue">
+            <div class="mini-box">
+                <p>Entretenimento</p>
+            </div>
+                <section class="casapedra-main">
+                    <h2 class="content-name">Casa de Pedra</h2>
                     <div class="cont2">
-                        <p>
+                        <p class="content-text">
                             A casa de pedra o maior ginasio de escalada esportiva do pais com paredes de a
                             ate 14m de altura e mais de 100 vias de escalada guiada localizada em dois pontos de sao paulo moema e 
                             perdizes contendo varias atividas como slackline ,yoga adventure e muitos mais
@@ -40,45 +41,46 @@
                             <img src="../img/casa_de_pedra.jpg" alt="Parede de escalada da Casa de pedra">
                             <figcaption>Vista de cima de uma parede de escalada da casa de pedra</figcaption>
                         </figure>
-                        <p>
+                        <p class="content-text space-text">
                             Seu horário de funcionamento é de seg a sex 6 as 23h sab,dom,feriado e emendas 14 as 20h, e seus preços são o 
-                            Plano Degustação - R$215,00 - à vista. Adventure Mensal - R$315,00 - à vista.                            
+                            Plano Degustação - R$215,00 - à vista. Adventure Mensal - R$315,00 - à vista.   
                         </p>
-                        <p>Para mais informações <a class="link-oficial" target=”_blank” href="http://www.casadepedra.com.br/">clique aqui</a></p>
-                        <br>
-                        <iframe classe="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.8884484116807!2d-46.65718868595514!3d-23.608333284659548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a143d9c26cf%3A0x179344c8a734df1e!2sCasa%20de%20Pedra%20Moema%20%7C%20Gin%C3%A1sio%20de%20Escalada!5e0!3m2!1spt-BR!2sbr!4v1623082048867!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                        <iframe classe="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.058246205623!2d-46.680683785957!3d-23.530407384698254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57fb6323e763%3A0x6205d6efd28789a7!2sCasa%20de%20Pedra%20Perdizes%20-%20Gin%C3%A1sio%20de%20Escalada!5e0!3m2!1spt-BR!2sbr!4v1623082110070!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    </div>
-                </div>
-                <div class="estrelas">
-                    <form action="" id="loja" onsubmit="alteraNota('lj', 0)">
-                        <legend>Avaliação</legend>
-                          <div id ="ava">
-                
-                            <input type="radio" id="cm_star-empty" name="lj" value="" checked/>
-                
-                            <label for="cm_star-1"><i class="fas fa-star"></i></label>
-                            <input type="radio" id="cm_star-1" name="lj" value="1"/>
-                
-                            <label for="cm_star-2"><i class="fas fa-star"></i></label>
-                            <input type="radio" id="cm_star-2" name="lj" value="2"/>
-                
-                            <label for="cm_star-3"><i class="fas fa-star"></i></label>
-                            <input type="radio" id="cm_star-3" name="lj" value="3"/>
-                
-                            <label for="cm_star-4"><i class="fas fa-star"></i></label>
-                            <input type="radio" id="cm_star-4" name="lj" value="4"/>
-                
-                            <label for="cm_star-5"><i class="fas fa-star"></i></label>
-                            <input type="radio" id="cm_star-5" name="lj" value="5">
-                
-                            <input class="btn b-o ml-5" type="submit">
-                            <input class="btn b-o" type="reset">
+                        <p class="content-text space-text">Para mais informações <a class="link-oficial" target=”_blank” href="http://www.casadepedra.com.br/">clique aqui</a></p>
+                        <div class="mapa-content">
+                            <h3 class="content-name -sub">Como Chegar</h3>
+                            <iframe classe="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.8884484116807!2d-46.65718868595514!3d-23.608333284659548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a143d9c26cf%3A0x179344c8a734df1e!2sCasa%20de%20Pedra%20Moema%20%7C%20Gin%C3%A1sio%20de%20Escalada!5e0!3m2!1spt-BR!2sbr!4v1623082048867!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            <iframe classe="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.058246205623!2d-46.680683785957!3d-23.530407384698254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57fb6323e763%3A0x6205d6efd28789a7!2sCasa%20de%20Pedra%20Perdizes%20-%20Gin%C3%A1sio%20de%20Escalada!5e0!3m2!1spt-BR!2sbr!4v1623082110070!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                         </div>
-                    </form>
-                </div>
+                    </div>
+                </section>
+            <div class="estrelas">
+                <form action="" id="loja" onsubmit="alteraNota('lj', 5)">
+                    <legend>Avaliação</legend>
+                      <div id ="ava">
+            
+                        <input type="radio" id="cm_star-empty" name="lj" value="0" checked/>
+            
+                        <label for="cm_star-1"><i class="fas fa-star"></i></label>
+                        <input type="radio" id="cm_star-1" name="lj" value="1"/>
+            
+                        <label for="cm_star-2"><i class="fas fa-star"></i></label>
+                        <input type="radio" id="cm_star-2" name="lj" value="2"/>
+            
+                        <label for="cm_star-3"><i class="fas fa-star"></i></label>
+                        <input type="radio" id="cm_star-3" name="lj" value="3"/>
+            
+                        <label for="cm_star-4"><i class="fas fa-star"></i></label>
+                        <input type="radio" id="cm_star-4" name="lj" value="4"/>
+            
+                        <label for="cm_star-5"><i class="fas fa-star"></i></label>
+                        <input type="radio" id="cm_star-5" name="lj" value="5">
+            
+                        <input class="btn b-o ml-5" type="submit">
+                        <input class="btn b-o" type="reset">
+                    </div>
+                </form>
             </div>
-        </section>
-    </div>
+        </div>
+    </section>
 </body>
 </html>
