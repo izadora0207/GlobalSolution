@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <link rel="stylesheet" href="../css/style.css">
     <script src="../js/script.js"></script>
     <title>Jockey Club</title>
 </head>
+
 <body>
     <header>
         <nav class="nav">
@@ -24,15 +26,16 @@
     </header>
     <div class="pae">
         <section class="main-hold">
-            <div class="container-content bd-blue">    
+            <div class="container-content bd-blue">
                 <div class="cont2">
-                        <h2 class="mini-box">Entretenimento</h2>
+                    <h2 class="mini-box">Entretenimento</h2>
                     <div class="cont">
                         <h2 class="content-name">Jockey Club</h2>
                     </div>
                     <div class="cont2">
                         <p>
-                            O Jockey Club de São Paulo é a entidade que administra e detém a propriedade do Hipódromo de Cidade Jardim. 
+                            O Jockey Club de São Paulo é a entidade que administra e detém a propriedade do Hipódromo de
+                            Cidade Jardim.
                             Foi fundado em 14 de março de 1875, sob o nome de "Club de Corridas Paulistano".
                         </p>
                         <figure>
@@ -40,34 +43,45 @@
                             <figcaption>Jockey Club de São Paulo a noite</figcaption>
                         </figure>
                         <p>Seu horário de funcionamento é das 08h00 às 17h00 de segunda-feira aos domingos.
-                            A entrada é gratuita e, com apenas 2 reais no bolso, pode-se apostar em algum dos 1.400 animais que formam o hipódromo (se for maior de idade claro)</p>
-                        <p>Para mais informações <a class="link-oficial" target=”_blank” href="http://www.jockeysp.com.br/">clique aqui</a></p>
+                            A entrada é gratuita e, com apenas 2 reais no bolso, pode-se apostar em algum dos 1.400
+                            animais que formam o hipódromo (se for maior de idade claro)</p>
+                        <p>Para mais informações <a class="link-oficial" target=”_blank”
+                                href="http://www.jockeysp.com.br/">clique aqui</a></p>
                         <br>
-                        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14626.383902666052!2d-46.6988821!3d-23.5829499!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8df49cd651035b8!2sJockey%20Club%20de%20S%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1623270231406!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <iframe class="mapa"
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14626.383902666052!2d-46.6988821!3d-23.5829499!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8df49cd651035b8!2sJockey%20Club%20de%20S%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1623270231406!5m2!1spt-BR!2sbr"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
                 </div>
                 <div class="estrelas">
                     <form action="" id="loja" onsubmit="alteraNota('lj', 1)">
                         <legend>Avaliação</legend>
-                          <div id ="ava">
-                
-                            <input type="radio" id="cm_star-empty" name="lj" value="0" checked/>
-                
+                        <div id="ava">
+
+                            <input type="radio" id="cm_star-empty" name="lj" value="0" checked />
+
                             <label for="cm_star-1"><i class="fas fa-star"></i></label>
-                            <input type="radio" id="cm_star-1" name="lj" value="1"/>
-                
+                            <input type="radio" id="cm_star-1" name="lj" value="1" />
+
                             <label for="cm_star-2"><i class="fas fa-star"></i></label>
-                            <input type="radio" id="cm_star-2" name="lj" value="2"/>
-                
+                            <input type="radio" id="cm_star-2" name="lj" value="2" />
+
                             <label for="cm_star-3"><i class="fas fa-star"></i></label>
-                            <input type="radio" id="cm_star-3" name="lj" value="3"/>
-                
+                            <input type="radio" id="cm_star-3" name="lj" value="3" />
+
                             <label for="cm_star-4"><i class="fas fa-star"></i></label>
-                            <input type="radio" id="cm_star-4" name="lj" value="4"/>
-                
+                            <input type="radio" id="cm_star-4" name="lj" value="4" />
+
                             <label for="cm_star-5"><i class="fas fa-star"></i></label>
                             <input type="radio" id="cm_star-5" name="lj" value="5">
-                
+
+
+                            <label for="nome"><i class="nome"></i></label>
+                            <input type="text" id="idNome" name="nome" required placeholder="name">
+
+                            <label for="email"><i class="email"></i></label>
+                            <input type="text" id="idemail" name="email" required placeholder="exemplo@ex.com">
+                            
                             <input class="btn b-o ml-5" type="submit">
                             <input class="btn b-o" type="reset">
                         </div>
@@ -77,4 +91,5 @@
         </section>
     </div>
 </body>
+
 </html>

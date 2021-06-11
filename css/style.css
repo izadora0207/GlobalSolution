@@ -215,6 +215,11 @@ font-family: "Helvetica Neue", Arial, sans-serif;
     padding-bottom: 25px;
 }
 
+.content-name a{
+    color: #000;
+    text-decoration: none;
+}
+
 .content{
     text-align: justify;
 }

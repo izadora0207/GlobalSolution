@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <link rel="stylesheet" href="../css/style.css">
     <script src="../js/script.js"></script>
     <title>Al Janiah</title>
 </head>
+
 <body>
     <header>
         <nav class="nav">
@@ -24,52 +26,62 @@
     </header>
     <div class="pae">
         <section class="main-hold">
-            <div class="container-content bd-blue">    
+            <div class="container-content bd-blue">
                 <div class="cont2">
-                        <h2 class="mini-box">Entretenimento</h2>
+                    <h2 class="mini-box">Entretenimento</h2>
                     <div class="cont">
                         <h2 class="content-name">Al Janiah</h2>
                     </div>
                     <div class="cont2">
                         <p>
-                            Gastrobar acolhedor de menu mediterrâneo-libanês promove apresentações de música étnica e danças palestinas.
+                            Gastrobar acolhedor de menu mediterrâneo-libanês promove apresentações de música étnica e
+                            danças palestinas.
                         </p>
                         <figure>
                             <img src="../img/alJaniah.jpg" alt="Al Janiah">
                             <figcaption>Entrada do Al Janiah</figcaption>
                         </figure>
                         <p>
-                            Seu horário de funcionamento é das 18h00 às 00h30 de terça-feira as quinta-feira, 
+                            Seu horário de funcionamento é das 18h00 às 00h30 de terça-feira as quinta-feira,
                             das 18h00 às 02h00 de quinta-feira aos sábados e das 18h00 às 00h00 aos domingos
                             O preço de suas comidas e bebidas pode variar entre R$ 22,00 até R$ 43,45
                         </p>
-                        <p>Para mais informações <a class="link-oficial" target=”_blank” href="http://www.aljaniah.com.br/">clique aqui</a></p>
+                        <p>Para mais informações <a class="link-oficial" target=”_blank”
+                                href="http://www.aljaniah.com.br/">clique aqui</a></p>
                         <br>
-                        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14629.210764169009!2d-46.6452289!3d-23.5575699!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9bea53b2079e046c!2sRestaurante%20Al%20Janiah!5e0!3m2!1spt-BR!2sbr!4v1623269613787!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <iframe class="mapa"
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14629.210764169009!2d-46.6452289!3d-23.5575699!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9bea53b2079e046c!2sRestaurante%20Al%20Janiah!5e0!3m2!1spt-BR!2sbr!4v1623269613787!5m2!1spt-BR!2sbr"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
                 </div>
                 <div class="estrelas">
                     <form action="" id="loja" onsubmit="alteraNota('lj', 10)">
                         <legend>Avaliação</legend>
-                          <div id ="ava">
-                
-                            <input type="radio" id="cm_star-empty" name="lj" value="0" checked/>
-                
+                        <div id="ava">
+
+                            <input type="radio" id="cm_star-empty" name="lj" value="0" checked />
+
                             <label for="cm_star-1"><i class="fas fa-star"></i></label>
-                            <input type="radio" id="cm_star-1" name="lj" value="1"/>
-                
+                            <input type="radio" id="cm_star-1" name="lj" value="1" />
+
                             <label for="cm_star-2"><i class="fas fa-star"></i></label>
-                            <input type="radio" id="cm_star-2" name="lj" value="2"/>
-                
+                            <input type="radio" id="cm_star-2" name="lj" value="2" />
+
                             <label for="cm_star-3"><i class="fas fa-star"></i></label>
-                            <input type="radio" id="cm_star-3" name="lj" value="3"/>
-                
+                            <input type="radio" id="cm_star-3" name="lj" value="3" />
+
                             <label for="cm_star-4"><i class="fas fa-star"></i></label>
-                            <input type="radio" id="cm_star-4" name="lj" value="4"/>
-                
+                            <input type="radio" id="cm_star-4" name="lj" value="4" />
+
                             <label for="cm_star-5"><i class="fas fa-star"></i></label>
                             <input type="radio" id="cm_star-5" name="lj" value="5">
-                
+
+                            <label for="nome"><i class="nome"></i></label>
+                            <input type="text" id="idNome" name="nome" required placeholder="name">
+
+                            <label for="email"><i class="email"></i></label>
+                            <input type="text" id="idemail" name="email" required placeholder="exemplo@ex.com">
+
                             <input class="btn b-o ml-5" type="submit">
                             <input class="btn b-o" type="reset">
                         </div>
@@ -79,4 +91,5 @@
         </section>
     </div>
 </body>
+
 </html>

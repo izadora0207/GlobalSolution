@@ -1,6 +1,6 @@
 var artigos = ["Teatro", "JockeyClub", "Espaço das americas", "Escape", "Cinepolis", "Casa de Pedra", "Casa 92", "Feira do Benedito Calixto", "Beco do Batman", "Autódromo", "Al Janiah"]
 //var Nota = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-var Nota = [];
+var nota = [];
 var atualizaNota;
 
 function dica(nome){
@@ -27,7 +27,7 @@ function notaRamdon() {
     while (i <= 9) {
         //alert(b);
         b = Math.floor(Math.random() * 5);
-        Nota.push(b);
+        nota.push(b);
         i += 1;
     }
 }
@@ -54,13 +54,13 @@ function atualizarNota(posicao, rr) {
     //lembrar: sem divisao porque nao há como salvar quantas pessoas visualizaram sem o auxilio de um banco
     p = posicao;
     r = rr;
-    atualizaNota = Nota[p] + r;
-    Nota.splice(p, p + 1, atualizaNota);
+    atualizaNota = nota[p] + r;
+    nota.splice(p, p + 1, atualizaNota);
     exibirNota();
 }
 
 function exibirNota() {
-    alert("no artigo da " + artigos[p] + " a media da nota foi " + Nota[p]);
+    alert("no artigo da " + artigos[p] + " a media da nota foi " + nota[p]);
     fazerRanking(p);
 }
 
@@ -71,11 +71,11 @@ function fazerRanking() {
     let ranking = [];
     let artigosRank = [];
 
-    for (i = 0; i < Nota.length; i++) {
-        copyNota.push(Nota[i]);
+    for (i = 0; i < nota.length; i++) {
+        copyNota.push(nota[i]);
     }
 
-    while (ranking.length != Nota.length) {
+    while (ranking.length != nota.length) {
         maiorNota = 0;
         for (i = 0; i < copyNota.length; i++) {
             if (copyNota[i] > maiorNota) {

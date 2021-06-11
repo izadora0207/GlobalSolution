@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <link rel="stylesheet" href="../css/style.css">
     <script src="../js/script.js"></script>
     <title>Beco do Batman</title>
 </head>
+
 <body>
     <header>
         <nav class="nav">
@@ -24,16 +26,17 @@
     </header>
     <div class="pae">
         <section class="main-hold">
-            <div class="container-content bd-blue">    
+            <div class="container-content bd-blue">
                 <div class="cont2">
-                        <h2 class="mini-box">Entretenimento</h2>
+                    <h2 class="mini-box">Entretenimento</h2>
                     <div class="cont">
                         <h2 class="content-name">Beco do Batman</h2>
                     </div>
                     <div class="cont2">
                         <p>
-                            O Beco do Batman é referência para o graffiti paulistano há mais de 30 anos. 
-                            Se trata de um beco completamente grafitado onde reza a lenda que nos anos 80 um desenho do Batman apareceu da noite 
+                            O Beco do Batman é referência para o graffiti paulistano há mais de 30 anos.
+                            Se trata de um beco completamente grafitado onde reza a lenda que nos anos 80 um desenho do
+                            Batman apareceu da noite
                             para o dia em uma das paredes do beco. Dando assim a origem de seu nome.
                         </p>
                         <figure>
@@ -44,31 +47,39 @@
                             A entrada para admirar seus grafites é gratuita.
                         </p>
                         <br>
-                        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14629.321007047123!2d-46.6866109!3d-23.5565796!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc5b1a9636043ff22!2sBeco%20do%20Batman!5e0!3m2!1spt-BR!2sbr!4v1623267317944!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <iframe class="mapa"
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14629.321007047123!2d-46.6866109!3d-23.5565796!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc5b1a9636043ff22!2sBeco%20do%20Batman!5e0!3m2!1spt-BR!2sbr!4v1623267317944!5m2!1spt-BR!2sbr"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
                 </div>
                 <div class="estrelas">
                     <form action="" id="loja" onsubmit="alteraNota('lj', 8)">
                         <legend>Avaliação</legend>
-                          <div id ="ava">
-                
-                            <input type="radio" id="cm_star-empty" name="lj" value="0" checked/>
-                
+                        <div id="ava">
+
+                            <input type="radio" id="cm_star-empty" name="lj" value="0" checked />
+
                             <label for="cm_star-1"><i class="fas fa-star"></i></label>
-                            <input type="radio" id="cm_star-1" name="lj" value="1"/>
-                
+                            <input type="radio" id="cm_star-1" name="lj" value="1" />
+
                             <label for="cm_star-2"><i class="fas fa-star"></i></label>
-                            <input type="radio" id="cm_star-2" name="lj" value="2"/>
-                
+                            <input type="radio" id="cm_star-2" name="lj" value="2" />
+
                             <label for="cm_star-3"><i class="fas fa-star"></i></label>
-                            <input type="radio" id="cm_star-3" name="lj" value="3"/>
-                
+                            <input type="radio" id="cm_star-3" name="lj" value="3" />
+
                             <label for="cm_star-4"><i class="fas fa-star"></i></label>
-                            <input type="radio" id="cm_star-4" name="lj" value="4"/>
-                
+                            <input type="radio" id="cm_star-4" name="lj" value="4" />
+
                             <label for="cm_star-5"><i class="fas fa-star"></i></label>
                             <input type="radio" id="cm_star-5" name="lj" value="5">
-                
+
+                            <label for="nome"><i class="nome"></i></label>
+                            <input type="text" id="idNome" name="nome" required placeholder="name">
+
+                            <label for="email"><i class="email"></i></label>
+                            <input type="text" id="idemail" name="email" required placeholder="exemplo@ex.com">
+
                             <input class="btn b-o ml-5" type="submit">
                             <input class="btn b-o" type="reset">
                         </div>
@@ -78,4 +89,5 @@
         </section>
     </div>
 </body>
+
 </html>
