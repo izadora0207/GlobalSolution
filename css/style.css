@@ -2,6 +2,15 @@
     border-bottom: 3px solid #ff9800;
 }
 
+.active2{
+    border-bottom: 3px solid #6651b0;
+}
+
+.active3{
+    border-bottom: 3px solid #59d65e;
+}
+
+
 .nav a{
     color: white;
 
@@ -262,10 +271,20 @@ iframe{
     color: white;
 }
 
-.ul li:hover{
+.bb-o:hover{
     border-bottom: 3px solid #ff9800;
     cursor: pointer;
   }
+
+.bb-p:hover{
+    border-bottom: 3px solid #6651b0;
+    cursor: pointer;
+}
+
+.bb-g:hover{
+    border-bottom: 3px solid #59d65e;
+    cursor: pointer;
+}
 
 .check-l{
     display: inline;
@@ -317,9 +336,11 @@ iframe{
 	}
 
     .container-content{
-        padding: 30px 20px;
+        padding: 30px 20px !important;
     }
 }
+
+
 
 @media (max-width: 858px) {
     
@@ -370,6 +391,13 @@ iframe{
 }
 .estrelas input[type=radio]:checked~ label i.fas:before {
     color: #CCC;
+}
+
+input[type=text]{
+    color: #CCC;
+    padding: 5px;
+    border: 1px solid #80808069;
+    border-radius: 4px;
 }
 
 .btn{
@@ -428,3 +456,38 @@ iframe{
     margin-top: 10px;
 }
 
+.content-name a{
+    color: #000;
+    text-decoration: none;
+}
+
+.btn-voltar{
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .305rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-voltar:hover{
+    background-color: #80808052;
+}
+
+a i{
+    color: indigo;
+}
+
+.bixiga-content h3, .vila-madalena h3{
+    font-size: 28px;
+}
