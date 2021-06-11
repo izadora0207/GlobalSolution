@@ -333,6 +333,9 @@ iframe{
     margin-top: 50px;
 
 }
+.mt-1{
+    margin-top: 40px;
+}
 
 .bg-o{
     background-color: #ff9800 !important;
@@ -424,3 +427,4 @@ iframe{
 .sobre-txt h2{
     margin-top: 10px;
 }
+
