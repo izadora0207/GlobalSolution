@@ -177,6 +177,10 @@ header{
     align-items: center;
 }
 
+.footer.-f{
+    padding: 1.120rem 0;
+}
+
 .footer p{
         flex: 1;
         text-align: center;
