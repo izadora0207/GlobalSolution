@@ -310,6 +310,13 @@ iframe{
     .container-content{
         padding: 30px 20px !important;
     }
+
+    form{
+        width: 86%;
+    }
+    .ml-5{
+        margin-left: 0px !important;
+    }
 }
 
 
@@ -318,6 +325,15 @@ iframe{
     
     .container-content{
         padding: 30px 45px;
+    }
+
+   
+}
+
+@media (max-width: 559px) {
+     input[type=text]{
+      display: block;
+      margin-top: 5px;
     }
 }
 
@@ -390,6 +406,7 @@ input[type=text]{
     border: 1px solid transparent;
     padding: .205rem .55rem;
     font-size: 1rem;
+    margin: 0px 5px;
     line-height: 1.5;
     border-radius: .25rem;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
@@ -466,4 +483,10 @@ a i{
 
 .bixiga-content h3, .vila-madalena h3{
     font-size: 28px;
+}
+
+.avaliar{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
 }
