@@ -10,6 +10,13 @@
     border-bottom: 3px solid #59d65e;
 }
 
+.estrelas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 960px;
+ } 
 
 .nav a{
     color: white;
